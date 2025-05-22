@@ -26,12 +26,12 @@
         - All Chart.js instances use Canvas, include label wrapping for labels > 16 chars, and and the specified tooltip configuration.
         - Plotly.js is not used as the data does not warrant it.
 
-        CHOSEN PALETTE: "Strategic Blend"
-        - Primary Accent (Blue): #007BFF (Bright Blue) - for general headings, accents, professional feel.
-        - Dementia Awareness Purple: #800080 (Deep Purple) - for specific elements related to dementia awareness/scale.
+        CHOSEN PALETTE: "Strategic Blend - Softer Tones"
+        - Primary Accent (Blue): #4A90E2 (Softer Blue) - for general headings, accents, professional feel.
+        - Dementia Awareness Purple: #8A2BE2 (Blue Violet, softer than deep purple) - for specific elements related to dementia awareness/scale.
         - Secondary: #6C757D (Medium Gray) - for body text.
-        - Accent 1: #28A745 (Green) - for positive/growth aspects (e.g., Lifetime Risk of Dementia statistic).
-        - Accent 2: #DC3545 (Red) - for warning/stress aspects (e.g., stress icons, emotional stress statistic).
+        - Accent 1: #6DD47E (Soft Green) - for positive/growth aspects.
+        - Accent 2: #E57373 (Soft Red) - for warning/stress aspects.
         - Neutral/Background: #F8F9FA (Light Gray)
         - Card Background: #FFFFFF (White)
         - Text Primary: #212529 (Dark Gray)
@@ -83,7 +83,7 @@
          .sub-section-title {
             font-size: 1.5rem; /* text-2xl */
             font-weight: 600; /* font-semibold */
-            color: #007BFF; /* Primary Blue */
+            color: #4A90E2; /* Primary Blue (Softer) */
             margin-top: 1.5rem;
             margin-bottom: 0.75rem;
         }
@@ -95,7 +95,7 @@
         .big-stat-number {
             font-size: 3rem; /* text-5xl or larger */
             font-weight: 700; /* font-bold */
-            color: #DC3545; /* Red for stress - default */
+            color: #E57373; /* Soft Red for stress - default */
         }
         .big-stat-label {
             font-size: 1.125rem; /* text-lg */
@@ -119,12 +119,12 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Soft shadow */
             display: flex;
             align-items: flex-start;
-            border-left: 5px solid #007BFF; /* Blue accent border */
+            border-left: 5px solid #4A90E2; /* Blue accent border (Softer) */
         }
         .toolkit-icon {
             font-size: 2.25rem; /* Larger icon */
             margin-right: 1rem;
-            color: #007BFF; /* Primary Blue for icons */
+            color: #4A90E2; /* Primary Blue for icons (Softer) */
             flex-shrink: 0;
         }
         .toolkit-content h4 {
@@ -149,7 +149,7 @@
             overflow-x: auto; /* Still allow horizontal scroll if content is too wide, but prioritize vertical */
         }
         .flowchart-item {
-            background-color: #007BFF; /* Primary Blue */
+            background-color: #4A90E2; /* Primary Blue (Softer) */
             color: white;
             padding: 0.75rem 1.25rem;
             border-radius: 0.375rem;
@@ -160,7 +160,7 @@
         }
         .flowchart-arrow {
             font-size: 1.5rem;
-            color: #007BFF; /* Primary Blue */
+            color: #4A90E2; /* Primary Blue (Softer) */
             line-height: 0; /* Adjust for vertical spacing */
         }
         /* Removed horizontal flowchart adjustments for larger screens to maintain vertical flow */
@@ -176,7 +176,7 @@
         .wellness-step-section h3 { /* This will be replaced by h2.section-title */
             font-size: 1.5rem;
             font-weight: 600;
-            color: #800080; /* Dementia Awareness Purple */
+            color: #8A2BE2; /* Dementia Awareness Purple (Softer) */
             margin-bottom: 1rem;
         }
         .wellness-step-section h4 {
@@ -202,7 +202,7 @@
             margin-top: 0.5rem;
             margin-bottom: 1rem;
             padding-left: 1rem;
-            border-left: 3px solid #FFC107; /* Amber accent */
+            border-left: 3px solid #FFCC80; /* Softer Amber accent */
         }
         .wellness-step-section .why-it-works {
             font-weight: 500;
@@ -214,7 +214,7 @@
             margin-top: 2rem;
             font-size: 1.125rem;
             font-weight: 500;
-            color: #800080; /* Dementia Awareness Purple */
+            color: #8A2BE2; /* Dementia Awareness Purple (Softer) */
         }
         .personal-narrative {
             color: #6C757D; /* Medium Gray Text */
@@ -224,12 +224,12 @@
         }
         .stat-highlight {
             font-weight: 600;
-            color: #007BFF; /* Primary Blue for highlights */
+            color: #4A90E2; /* Primary Blue for highlights (Softer) */
         }
         /* Specific highlight for dementia-related stats */
         .stat-highlight-purple {
             font-weight: 600;
-            color: #800080; /* Dementia Awareness Purple for highlights */
+            color: #8A2BE2; /* Dementia Awareness Purple for highlights (Softer) */
         }
         /* Styling for the new icon-based stress visualization */
         .stress-icons-container {
@@ -238,7 +238,6 @@
             justify-content: center;
             gap: 0.5rem; /* Space between icons */
             margin-top: 1.5rem;
-            font-size: 2.5rem; /* Size of the person icon */
         }
         /* Removed custom stress-icon-red and stress-icon-grey classes */
         .citation {
@@ -256,10 +255,10 @@
             margin-top: 3rem; /* More margin from previous section */
             margin-bottom: 1.5rem;
             text-align: center;
-            border: 2px solid #800080; /* Primary purple border */
+            border: 2px solid #8A2BE2; /* Primary purple border (Softer) */
         }
         .conclusion-card .section-title {
-            color: #800080; /* Primary purple for title */
+            color: #8A2BE2; /* Primary purple for title (Softer) */
             margin-bottom: 1.5rem;
         }
         .conclusion-card .paragraph-text {
@@ -272,13 +271,13 @@
         }
         .conclusion-icon {
             font-size: 4rem; /* Large icon */
-            color: #800080; /* Primary purple icon */
+            color: #8A2BE2; /* Primary purple icon (Softer) */
             margin-bottom: 1.5rem;
         }
 
     </style>
 </head>
-<body class="bg-gray-100 text-gray-800 p-4 md:p-8">
+<body>
 
     <header class="text-center mb-12">
         <h1 class="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Dementia Caregiving: Unseen Realities, Practical Support</h1>
@@ -288,7 +287,7 @@
     <main class="container mx-auto">
 
         <section class="mb-12 stat-card">
-            <h2 class="section-title">To the Hiring Committee:</h2>
+            <h2 class="section-title">Hiring Committee:</h2>
             <p class="paragraph-text max-w-3xl mx-auto text-center">
                 This artifact is an excerpt from a chapter of my upcoming work, <em>The Other Side of Dementia Caregiving: A Journey of Holding On While Letting Go</em>. It offers a glimpse into my approach to supporting individuals and families navigating the complexities of dementia. Drawing from both deeply personal caregiving experiences and evidence-based best practices, this piece aims to illuminate the invisible realities of dementia care while providing practical strategies and a focused reflective tool for caregivers. It reflects my commitment to fostering resilience, promoting understanding, and enhancing the well-being of those touched by dementia. This particular section also serves as a sample of a toolkit resource referenced in the "Love in the Balance" grant proposal.
             </p>
@@ -382,17 +381,17 @@
             <div class="stat-card">
                 <h3 class="sub-section-title text-center">Stress from Coordinating Dementia Care</h3>
                 <p class="paragraph-text text-center">Navigating the complex healthcare system was a significant source of stress for me as a caregiver, and it's a common challenge. Data shows that <span class="stat-highlight-purple">70% of dementia caregivers report stress specifically from coordinating care</span>, which includes managing costs, securing appointments, and finding appropriate doctors.</p>
-                <div class="stress-icons-container">
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-red-600">👤</span>
-                    <span class="text-gray-500">👤</span>
-                    <span class="text-gray-500">👤</span>
-                    <span class="text-gray-500">👤</span>
+                <div class="flex justify-center flex-wrap gap-2 mt-4">
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-red-600"></div>
+                    <div class="w-6 h-6 rounded-full bg-gray-400"></div>
+                    <div class="w-6 h-6 rounded-full bg-gray-400"></div>
+                    <div class="w-6 h-6 rounded-full bg-gray-400"></div>
                 </div>
                 <p class="paragraph-text mt-4 text-center">
                      7 out of 10 caregivers experience stress related to coordinating care.
@@ -488,11 +487,11 @@
 
     <script>
         const CHART_COLORS = {
-            primaryBlue: '#007BFF', // Bright Blue
-            dementiaPurple: '#800080', // Deep Purple
+            primaryBlue: '#4A90E2', // Softer Blue
+            dementiaPurple: '#8A2BE2', // Blue Violet, softer
             secondaryGrey: '#6C757D', // Medium Gray
-            accentGreen: '#28A745', // Green
-            accentRed: '#DC3545', // Red
+            accentGreen: '#6DD47E', // Soft Green
+            accentRed: '#E57373', // Soft Red
             textPrimary: '#212529',
             textSecondary: '#6C757D'
         };
