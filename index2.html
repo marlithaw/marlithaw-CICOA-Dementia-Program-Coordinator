@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marlitha Williams-Ragland | Application & Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F8F9FA; /* Light Gray Background */
+            color: #212529; /* Dark Gray Text */
+            line-height: 1.6;
+        }
+        .container-lp { /* Custom class for the main container to avoid conflicts */
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #FFFFFF; /* White Card Background */
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        }
+        .header-lp {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        .header-lp h1 {
+            font-size: 2.8rem; /* Larger main name */
+            font-weight: 700;
+            color: #212529; /* Dark Gray for name */
+            margin-bottom: 0.5rem;
+        }
+        .header-lp p {
+            font-size: 1.4rem; /* Subtitle size */
+            color: #6C757D; /* Medium Gray for subtitle */
+        }
+        .intro-text-lp {
+            text-align: center;
+            font-size: 1.15rem;
+            color: #495057; /* Slightly darker gray for intro text */
+            margin-bottom: 3rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section-title-lp {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #007BFF; /* Primary Blue for section titles */
+            margin-bottom: 1.75rem;
+            text-align: center;
+        }
+        /* New card-based link item styling */
+        .link-card-lp {
+            display: block; /* Make the whole card clickable */
+            background-color: #F0F4F8; /* Light blue-gray background */
+            border-left: 6px solid #800080; /* Dementia Awareness Purple left border */
+            padding: 1.5rem; /* Increased padding */
+            margin-bottom: 1rem;
+            border-radius: 0.6rem;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            text-decoration: none; /* Remove underline from the entire card link */
+            color: inherit; /* Inherit text color */
+        }
+        .link-card-lp:hover {
+            transform: translateY(-5px); /* More pronounced lift on hover */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+        }
+        .link-card-lp .icon-lp {
+            font-size: 2.5rem; /* Larger icon in card */
+            color: #800080; /* Dementia Awareness Purple for icons */
+            margin-bottom: 0.75rem; /* Space below icon */
+            display: block; /* Ensure icon takes its own line */
+        }
+        .link-card-lp .link-title-lp {
+            font-weight: 700; /* Bolder title */
+            color: #007BFF; /* Primary Blue for link title */
+            font-size: 1.5rem; /* Larger title */
+            margin-bottom: 0.5rem; /* Space below title */
+            display: block; /* Ensure title takes its own line */
+        }
+        .link-card-lp .link-description-lp {
+            font-size: 1rem;
+            color: #495057; /* Darker gray for description */
+            line-height: 1.5;
+        }
+        .footer-lp {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid #E9ECEF;
+            color: #6C757D;
+        }
+        .footer-lp a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .footer-lp a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container-lp">
+        <header class="header-lp">
+            <h1>Marlitha Williams-Ragland</h1>
+            <p>Educator | Caregiver | Program Designer | Advocate</p>
+        </header>
+
+        <section class="intro-text-lp">
+            <p>
+                Welcome to my comprehensive application portfolio. This page offers access to my resume, cover letter, an excerpt from the Love in the Balance grant proposal, and a chapter from The Other Side of Dementia Caregiving: A Journey of Holding On While Letting Go. Each piece reflects a different facet of my work in program development, trauma-informed design, and dementia care. Thank you for considering my candidacy and taking the time to review these materials.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h2 class="section-title-lp">Application & Professional Materials</h2>
+            <div class="grid grid-cols-1 gap-4">
+                <a href="resume.html" target="_blank" rel="noopener noreferrer" class="link-card-lp">
+                    <span class="icon-lp">📄</span>
+                    <span class="link-title-lp">My Resume</span>
+                    <span class="link-description-lp">A clear record of my professional contributions across education, human services, and program design, with an emphasis on systems thinking, trauma-informed leadership, and cross-sector coordination.</span>
+                </a>
+
+                <a href="cover-letter.html" target="_blank" rel="noopener noreferrer" class="link-card-lp">
+                    <span class="icon-lp">✉️</span>
+                    <span class="link-title-lp">Cover Letter</span>
+                    <span class="link-description-lp">A direct reflection of why this role matters to me and how my lived experience, strategic leadership, and values-driven work align with the position’s purpose.</span>
+                </a>
+
+                <a href="grant-excerpt.html" target="_blank" rel="noopener noreferrer" class="link-card-lp">
+                    <span class="icon-lp">✍️</span>
+                    <span class="link-title-lp">"Love in the Balance" Grant Proposal</span>
+                    <span class="link-description-lp">An initiative I co-developed to support dementia caregivers through trauma-informed wellness tools grounded in lived experience and collaborative design.</span>
+                </a>
+
+                <a href="chapter-1-excerpt.html" target="_blank" rel="noopener noreferrer" class="link-card-lp">
+                    <span class="icon-lp">📈</span>
+                    <span class="link-title-lp">Dementia Caregiving: Insights & Support (Infographic)</span>
+                    <span class="link-description-lp">A narrative and data-based artifact from my upcoming book that brings together storytelling, research, and caregiver strategies to illuminate dementia’s impact and equip those supporting loved ones.</span>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer-lp">
+            <p>Thank you for your time and consideration.</p>
+            <p>For inquiries, please contact me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p class="mt-2 text-sm">&copy; 2025 Marlitha Williams-Ragland. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
